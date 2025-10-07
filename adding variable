@@ -1,0 +1,21 @@
+import React, { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
+function App() {
+  let name="shriraksha"
+
+  return (
+    <div>
+      <h1>
+        hello world {name}
+      </h1>
+      <button>clickme</button>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat commodi iste consequuntur voluptatibus ratione est aut nisi soluta optio dolores, repudiandae facere atque sequi accusantium voluptate alias voluptates dolor quibusdam.</p>
+      <button>submit</button>
+    </div>
+  )
+}
+
+export default App
