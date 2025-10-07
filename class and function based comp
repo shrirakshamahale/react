@@ -1,0 +1,30 @@
+import React, { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import NavBar from './NavBar'
+import Content from './Content'
+
+function App() {
+
+  return (
+    <div>
+      <h1>
+        hello world
+      </h1>
+      <NavBar/>
+      <Content/>
+    </div>
+  )
+}
+
+
+class App extends React.Component{
+  render(){
+  return(
+ <h1>this is class based component</h1>
+  )
+}
+}
+
+export default App
