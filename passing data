@@ -1,0 +1,46 @@
+//app.jsx
+import React, { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import Header from './Header'
+import Content from './Content'
+
+function App() {
+  let name="shriraksha"
+
+  return (
+
+      <div>
+        <Content name="santhosh" course="FSd"></Content>
+      </div>
+      )
+}
+
+export default App
+
+
+
+//content.jsx
+
+import React from 'react'
+
+const Content=({name,course})=>{
+  return(
+    <div>
+        my name is {name} and my course is {course}
+    </div>
+  )
+}
+export default Content
+
+
+
+
+
+
+
+
+
+
+
