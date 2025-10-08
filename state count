@@ -1,0 +1,22 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
+function App() {
+
+
+
+  let [Count,CountState]=useState(0);
+
+  return(
+    <>
+    <p>{Count}</p>
+    <button onClick={()=>CountState(Count+1)}>incremenet</button>
+    <button onClick={()=>CountState(Count-1)}>decremenet</button>
+    <button onClick={()=>CountState(0)}>reset</button>
+    </>
+  )
+}
+
+export default App
