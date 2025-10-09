@@ -1,0 +1,42 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import { Navbar } from './Navbar'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+      <div>
+        <p>hello react </p>
+         <Navbar />
+      </div>
+      </>
+  )
+}
+
+export default App
+
+
+
+
+
+
+
+
+
+
+import React from 'react'
+
+export const Navbar = () => {
+  return (
+    <div>
+        <ul>
+            <a href="http://google.com"><li>home</li></a>
+        </ul>
+       
+    </div>
+  )
+}
